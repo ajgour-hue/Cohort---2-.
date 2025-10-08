@@ -139,3 +139,25 @@
   cursor: pointer;
  }
 
+ #layout{
+    margin-top: 0px;       
+  padding: 10px;          
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;               
+  justify-content: center;
+  background-color: whitesmoke; 
+ }
+
+ #grid{
+  margin: 6px;           
+  height: 610px;
+  width: 710px;
+  background-image: url(https://www.apple.com/in/iphone-17/images/overview/welcome/hero_startframe__fslo8k8lane6_xlarge_2x.jpg);
+  background-size: cover;
+  border-radius: 1px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
